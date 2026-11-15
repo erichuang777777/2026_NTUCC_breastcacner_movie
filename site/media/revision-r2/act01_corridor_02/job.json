@@ -1,0 +1,27 @@
+{
+  "id": "act01_corridor_02",
+  "act": 1,
+  "title": "獨坐的空位，等待被陪伴",
+  "seed": 517422,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": "act01_corridor_01",
+  "references": [],
+  "kind": "h3",
+  "overlapFrames": 22,
+  "frames": 192,
+  "deliveryFrames": 170,
+  "duration": 8.0,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Video 1> is the final 56 frames of the preceding shot, supplying character poses, room layout and camera motion. Its final 22 frames form the opening motion guide of this target clip.\n\nsummary:\n[video continuation] A single 8.000-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Video 1> ([Shot 1] opening movement): fully_preserved - retain the final 22 guide frames and develop forward from their final state.\n\ndetailed_description: [Shot 1] Live-action photographic realism. Continue the revised actual hospital lobby shot from the end of Video 1, retaining skylights, green butterfly sculptures, right-side metal waiting chairs and the empty chair beside her. Her gaze lifts slightly toward that empty chair, then lowers to the notebook. Continue the same slow camera movement without restarting her pose. No sofa or substituted corridor. No dialogue, singing or narration. Visible people remain silent. The shot lasts 8.0 seconds. No subtitles or watermark.\n\noverall_soundscape:\nQuiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "b83b072f74b234c4e17ab5854ef38592e8dcd3ff73d32ef9adb1cdac91491a56",
+  "revision": "r2",
+  "needsVisualReview": true
+}
