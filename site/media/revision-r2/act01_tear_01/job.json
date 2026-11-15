@@ -1,0 +1,36 @@
+{
+  "id": "act01_tear_01",
+  "act": 1,
+  "title": "落在紙上的眼淚",
+  "seed": 517009,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act01_tear_01-r2.png",
+      "sha256": "2202f863e1dd6dc458594152a827845f35a67aa34bce0184c01f9acd1f3c2a49"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 158,
+  "deliveryFrames": 158,
+  "duration": 6.583333333333333,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. A single clear tear falls onto the paper and touches a handwritten ink stroke. The droplet flattens, a darker damp patch slowly spreads through the paper fibers, and the touched black ink visibly feathers into a small irregular blue-black halo. The adjacent dry writing stays sharp. Keep the camera close and steady; do not show instant widespread blur or static wet ink. No dialogue, singing or narration. Visible people remain silent. The shot lasts 6.583333333333333 seconds. No subtitles or watermark.\n\noverall_soundscape: Quiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "28158582fae3b0863895516c156ef464352f82be0c39921d43da6c732f9bbc3c",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-f5c66528-e81d-46e6-a9ee-3618a6c6cc7b.png"
+}
