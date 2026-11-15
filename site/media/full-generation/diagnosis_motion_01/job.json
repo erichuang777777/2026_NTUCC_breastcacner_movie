@@ -1,0 +1,46 @@
+{
+  "id": "diagnosis_motion_01",
+  "act": 1,
+  "title": "世界失去聲音",
+  "seed": 517006,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": "wang",
+  "dialogue": [
+    "何小姐，病理切片確認是浸潤性乳癌，",
+    "目前初步評估為第二期。"
+  ],
+  "textCues": [
+    {
+      "start": 0.4,
+      "end": 4.4,
+      "text": "何小姐，病理切片確認是浸潤性乳癌，"
+    },
+    {
+      "start": 4.4,
+      "end": 7.8,
+      "text": "目前初步評估為第二期。"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/diagnosis_motion_01.png",
+      "sha256": "d5f0732dcfdf98532774275ea0b8c5dacc79e6efd8957a05d50570d7bd9f9a1e"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "offscreen": false,
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. A continuous live-action shot in the consultation room pictured. The same Taiwanese woman with shoulder-length wavy black hair, cream blouse and charcoal cardigan sits opposite the same bespectacled doctor. Her facial features, age and wardrobe remain consistent. The beige plaster wall, small warm lamp and window blinds form a coherent fixed room. At the beginning, the doctor lowers the report folder slightly while she looks at him. Next, she lowers her eyes and tilts her chin toward her notebook, sliding her right fingertips gently along its leather cover. Toward the end, she inhales, lifts her chin and looks back toward the doctor, blinking naturally. Throughout the shot the camera physically dollies forward about 30 cm and trucks right about 15 cm at a steady gentle speed, beginning in an over-shoulder medium shot and ending in a closer medium shot. The doctor's near shoulder shifts across frame faster than the distant wall, producing natural parallax. Focus stays on her eyes as the foreground shoulder softens. Her shoulders and clothing move naturally with breathing. Restrained shock, natural continuous human movement, cinematic photographic realism. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. After the opening settles, the stockier male doctor (S1), speaking in a natural middle-aged Taiwanese male voice, low-mid pitch, clear Taiwan Mandarin pronunciation and measured professional pacing says: <d>[Chinese] 何小姐，病理切片確認是浸潤性乳癌，目前初步評估為第二期。</d> Only this speaker’s lips articulate the line; every other visible character remains a silent listener with lips together. The speaker finishes the line and closes the mouth before the final hold. The full shot lasts 8.000 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Quiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "e56beb854a65fff9be1b0e81f4fb0ad8bab4f51a9c9f0b0e1998320281539d95"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "diagnosis_motion_02",
+  "act": 1,
+  "title": "世界失去聲音",
+  "seed": 517106,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": "wang",
+  "dialogue": [
+    "接下來，我們會把影像、病理和妳的需求放在一起，",
+    "討論最合適的治療方式。"
+  ],
+  "textCues": [
+    {
+      "start": 0.1,
+      "end": 3.9,
+      "text": "接下來，我們會把影像、病理和妳的需求放在一起，"
+    },
+    {
+      "start": 3.9,
+      "end": 7.0,
+      "text": "討論最合適的治療方式。"
+    }
+  ],
+  "dependsOn": "diagnosis_motion_01",
+  "references": [],
+  "kind": "h3",
+  "overlapFrames": 22,
+  "offscreen": false,
+  "voiceReference": {
+    "job": "diagnosis_motion_01"
+  },
+  "frames": 226,
+  "deliveryFrames": 204,
+  "duration": 9.416666666666666,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Video 1> is the final 56 frames of the preceding shot, supplying character poses, room layout and camera motion. Its final 22 frames form the opening motion guide of this target clip.\n<Subject 2> is the stockier male doctor in the scene anchor, the only visible speaker in [Shot 1].\n<Audio 1> is the voice-timbre reference for <Subject 2> (S1), the stockier male doctor, speaking in a natural middle-aged Taiwanese male voice, low-mid pitch, clear Taiwan Mandarin pronunciation and measured professional pacing. Reference vocal timbre and Taiwan Mandarin delivery only, not its words, music or environmental sound.\n\nsummary:\n[video continuation + audio reference] A single 9.417-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Video 1> ([Shot 1] opening movement): fully_preserved - retain the final 22 guide frames and develop forward from their final state.\n<Subject 2> (appears in [Shot 1]): fully_preserved - retain the same face, age and scene-specific clothing; allow only the described actions and synchronized speech.\n<Audio 1>: reference - use vocal identity and delivery; generate the new dialogue rather than copying source words or its soundtrack.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot opens with the final 22 frames of <Video 1> as its guide, then continues the existing movement without a pose or camera reset. The opening guide has no new speech. Preserve the same Taiwanese woman, shoulder-length black hair, cream blouse, charcoal cardigan, doctor foreground shoulder and quiet warm consultation room. Continue the existing gentle camera move in the same direction without resetting framing. Her fingertips curl slightly against its cover before relaxing. Her shoulders rise and fall with a slow breath. Keep the doctor as a soft foreground presence and preserve the room geometry, light and identity. Restrained shock, no new character or dramatic gesture. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. After the opening settles, <Subject 2> (S1), the stockier male doctor, speaking in a natural middle-aged Taiwanese male voice, low-mid pitch, clear Taiwan Mandarin pronunciation and measured professional pacing says: <d>[Chinese] 接下來，我們會把影像、病理和妳的需求放在一起，討論最合適的治療方式。</d> Only this speaker’s lips articulate the line; every other visible character remains a silent listener with lips together. The speaker finishes the line and closes the mouth before the final hold. The voice follows <Audio 1> without copying its words or background sound. The full shot lasts 9.417 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nQuiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "6b84b276a1703cd3ff68ceb8fbf668e170baf4a37f10df3cc4f19bfcc4b3161f"
+}

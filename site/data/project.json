@@ -668,15 +668,15 @@
       }
     },
     {
-      "image": "images/c902d8d5131b-hall_echo.webp",
-      "original": "originals/c902d8d5131b-hall_echo.png",
-      "source": "assets/storyboard/latest/hall_echo.png",
-      "sha256": "c902d8d5131beb314df5b64384fda496b42183e7978f075dbc93129b0ebc8cb6",
+      "image": "images/db6b95b0d3f1-hall_ntu_lobby_v2.png",
+      "original": "originals/db6b95b0d3f1-hall_ntu_lobby_v2.png",
+      "source": "assets/storyboard/latest/hall_ntu_lobby_v2.png",
+      "sha256": "db6b95b0d3f116b79e436ce505dd01f3e95d56d5ec6d68b67ef4edb959a03d6a",
       "id": "act01_corridor_01",
       "number": 11,
       "act": 1,
       "title": "獨坐的空位，等待被陪伴",
-      "story": "確診後，詠晴獨自坐在長椅右側，抱著筆記本，左側座位留空。終幕以相同座位與鏡頭軸線，讓她坐到新病友身旁；空位由陪伴填上。",
+      "story": "確診後，詠晴獨坐於實拍醫院大廳右側的灰色金屬候診座椅，抱緊筆記本，畫面左側相鄰座位留空。保留挑高天窗、綠色蝴蝶吊飾、診間與石材地面。",
       "start": 73.91666666666667,
       "duration": 9.416666666666666,
       "video": "film",
@@ -684,10 +684,10 @@
       "promptKind": "H3 I2VA 標準影片提示詞（待生成）",
       "promptVersion": "ab97c9e1ff00",
       "dialogue": [],
-      "status": "新圖待審／影片待替換",
-      "note": "已依最新意見重製關鍵影格；主片尚未替換。影片生成時需同步遵守下方動作與表情限制。",
+      "status": "新圖待審 · 實拍大廳背景",
+      "note": "已依使用者提供的「醫院大廳.JPG」重製關鍵影格；現有影片尚未換成此背景。",
       "checks": [],
-      "promptZh": "【本鏡要求】\n詠晴32歲，及肩黑髮、米色上衣與深灰外套，獨坐灰色長椅右側，抱著閉合的棕色筆記本，視線低垂、肩膀收縮。左半座位完全留空，與終幕新病友接受陪伴的座位、鏡頭軸線相呼應。眼平中遠景、自然日光，不微笑、不對鏡頭、不新增陪伴者。影片中只安排呼吸、手指稍微收緊及視線微抬，推近不超過10公分。\n\n【共通檢查】\n依參考圖固定人物身分、年齡、衣著及場景；保持自然肢體與表情。字幕與可讀介面文字依後製規範處理。目前影片交付不含音軌。\n\n【H3 標準格式】\n模式：I2VA。生成 9.417 秒，剪輯採用 9.417 秒。單一連續鏡頭；動作依先後敘述，不以時間戳記假造切鏡。維持目前無配音、無配樂的畫面製作版本；原台詞保留於腳本，不要求模型生成字幕。",
+      "promptZh": "【待套用的背景修訂】\n改用使用者實拍「醫院大廳.JPG」：挑高天窗、綠色蝴蝶吊飾、右側金屬候診椅與診間。女主角身旁留空位，移除舊版沙發與盆栽走廊。02 接續新版 01 末端，並非重用原始首幀。影片尚待重製。\n\n【本鏡要求】\n詠晴32歲，及肩黑髮、米色上衣與深灰外套，獨坐灰色長椅右側，抱著閉合的棕色筆記本，視線低垂、肩膀收縮。左半座位完全留空，與終幕新病友接受陪伴的座位、鏡頭軸線相呼應。眼平中遠景、自然日光，不微笑、不對鏡頭、不新增陪伴者。影片中只安排呼吸、手指稍微收緊及視線微抬，推近不超過10公分。\n\n【共通檢查】\n依參考圖固定人物身分、年齡、衣著及場景；保持自然肢體與表情。字幕與可讀介面文字依後製規範處理。目前影片交付不含音軌。\n\n【H3 標準格式】\n模式：I2VA。生成 9.417 秒，剪輯採用 9.417 秒。單一連續鏡頭；動作依先後敘述，不以時間戳記假造切鏡。維持目前無配音、無配樂的畫面製作版本；原台詞保留於腳本，不要求模型生成字幕。",
       "promptZhVersion": "b7eefa4ef0d0",
       "sourcePrompt": "Use case identity-preserve, film storyboard revision. Image1 is ONLY the exact environment, camera perspective and visual echo reference: gray upholstered hospital bench, wood panels and painting at right, glazed corridor and plants at left. Remove both people from image1. Put ONLY the same 32-year-old woman from image2 into the seat on the RIGHT that the newly diagnosed young patient occupied in image1. Keep the entire LEFT seat EMPTY, conspicuously large negative space, matching the later companion's position. Identity/shoulder-length naturally wavy black hair, cream V-neck blouse and charcoal cardigan from image2, dark trousers and worn closed brown notebook from image3. She sits withdrawn with shoulders slightly folded, elbows near body, hands still around closed notebook on her lap, eyes lowered with shock and uncertainty, no smile, no theatrical crying. Medium-wide eye-level two-seat composition preserving the exact image1 background geometry and camera axis; show the vacant left seat and woman on right, knees included. Soft neutral daytime, slightly subdued exposure but not gloomy/horror. The narrative is 'before companionship', visually matched to image1 'after companionship'. No extra people, no nurse, no husband, no new girl, no duplicates, no text. Photorealistic clear youthful face, 2.39:1 landscape. Existing scene is a narrative continuity reference, do not add hospital logos or invent signage.",
       "sourcePromptKind": "修正關鍵影格提示詞",
@@ -724,18 +724,25 @@
           "生成長度、裁切範圍、參考素材標籤與模式一致"
         ],
         "checkpointPolicy": "保留已驗收片段；失敗只重抽本鏡。前鏡內容變更時才重新驗證相依接點。"
+      },
+      "frameNote": "01 的新首幀／02 的共用場景參考；02 的實際續接影格須由新版 01 末端取得。",
+      "backgroundRevision": {
+        "status": "pending_video_regeneration",
+        "reference": "assets/hospital-reference/inbox/醫院大廳.JPG",
+        "image": "assets/storyboard/latest/hall_ntu_lobby_v2.png",
+        "requirement": "Use the actual NTU Cancer Center atrium shown in the revised scene image: skylights, green butterfly sculptures, right-side gray metal waiting chairs and clinic doors. Preserve the woman and empty adjacent seat. Do not reintroduce the sofa, plants or invented corridor. Continue shot 02 from the generated end of revised shot 01."
       }
     },
     {
-      "image": "images/c902d8d5131b-hall_echo.webp",
-      "original": "originals/c902d8d5131b-hall_echo.png",
-      "source": "assets/storyboard/latest/hall_echo.png",
-      "sha256": "c902d8d5131beb314df5b64384fda496b42183e7978f075dbc93129b0ebc8cb6",
+      "image": "images/db6b95b0d3f1-hall_ntu_lobby_v2.png",
+      "original": "originals/db6b95b0d3f1-hall_ntu_lobby_v2.png",
+      "source": "assets/storyboard/latest/hall_ntu_lobby_v2.png",
+      "sha256": "db6b95b0d3f116b79e436ce505dd01f3e95d56d5ec6d68b67ef4edb959a03d6a",
       "id": "act01_corridor_02",
       "number": 12,
       "act": 1,
       "title": "獨坐的空位，等待被陪伴",
-      "story": "確診後，詠晴獨自坐在長椅右側，抱著筆記本，左側座位留空。終幕以相同座位與鏡頭軸線，讓她坐到新病友身旁；空位由陪伴填上。",
+      "story": "確診後，詠晴獨坐於實拍醫院大廳右側的灰色金屬候診座椅，抱緊筆記本，畫面左側相鄰座位留空。保留挑高天窗、綠色蝴蝶吊飾、診間與石材地面。",
       "start": 83.33333333333333,
       "duration": 7.083333333333333,
       "video": "film",
@@ -743,10 +750,10 @@
       "promptKind": "H3 Ref2VA 標準影片提示詞（待生成）",
       "promptVersion": "d6713e0feac4",
       "dialogue": [],
-      "status": "新圖待審／影片待替換",
-      "note": "已依最新意見重製關鍵影格；主片尚未替換。影片生成時需同步遵守下方動作與表情限制。",
+      "status": "新圖待審 · 實拍大廳背景",
+      "note": "已依使用者提供的「醫院大廳.JPG」重製關鍵影格；現有影片尚未換成此背景。",
       "checks": [],
-      "promptZh": "【本鏡要求】\n詠晴32歲，及肩黑髮、米色上衣與深灰外套，獨坐灰色長椅右側，抱著閉合的棕色筆記本，視線低垂、肩膀收縮。左半座位完全留空，與終幕新病友接受陪伴的座位、鏡頭軸線相呼應。眼平中遠景、自然日光，不微笑、不對鏡頭、不新增陪伴者。影片中只安排呼吸、手指稍微收緊及視線微抬，推近不超過10公分。\n\n【共通檢查】\n依參考圖固定人物身分、年齡、衣著及場景；保持自然肢體與表情。字幕與可讀介面文字依後製規範處理。目前影片交付不含音軌。\n\n【H3 標準格式】\n模式：Ref2VA。生成 8.000 秒，剪輯採用 7.083 秒。單一連續鏡頭；動作依先後敘述，不以時間戳記假造切鏡。維持目前無配音、無配樂的畫面製作版本；原台詞保留於腳本，不要求模型生成字幕。 使用已驗收且符合本鏡角色、場景與接點的前鏡尾端 22 幀；若前鏡內容已變更，才重製受影響的延續鏡頭。",
+      "promptZh": "【待套用的背景修訂】\n改用使用者實拍「醫院大廳.JPG」：挑高天窗、綠色蝴蝶吊飾、右側金屬候診椅與診間。女主角身旁留空位，移除舊版沙發與盆栽走廊。02 接續新版 01 末端，並非重用原始首幀。影片尚待重製。\n\n【本鏡要求】\n詠晴32歲，及肩黑髮、米色上衣與深灰外套，獨坐灰色長椅右側，抱著閉合的棕色筆記本，視線低垂、肩膀收縮。左半座位完全留空，與終幕新病友接受陪伴的座位、鏡頭軸線相呼應。眼平中遠景、自然日光，不微笑、不對鏡頭、不新增陪伴者。影片中只安排呼吸、手指稍微收緊及視線微抬，推近不超過10公分。\n\n【共通檢查】\n依參考圖固定人物身分、年齡、衣著及場景；保持自然肢體與表情。字幕與可讀介面文字依後製規範處理。目前影片交付不含音軌。\n\n【H3 標準格式】\n模式：Ref2VA。生成 8.000 秒，剪輯採用 7.083 秒。單一連續鏡頭；動作依先後敘述，不以時間戳記假造切鏡。維持目前無配音、無配樂的畫面製作版本；原台詞保留於腳本，不要求模型生成字幕。 使用已驗收且符合本鏡角色、場景與接點的前鏡尾端 22 幀；若前鏡內容已變更，才重製受影響的延續鏡頭。",
       "promptZhVersion": "db0fa51dd09b",
       "sourcePrompt": "Use case identity-preserve, film storyboard revision. Image1 is ONLY the exact environment, camera perspective and visual echo reference: gray upholstered hospital bench, wood panels and painting at right, glazed corridor and plants at left. Remove both people from image1. Put ONLY the same 32-year-old woman from image2 into the seat on the RIGHT that the newly diagnosed young patient occupied in image1. Keep the entire LEFT seat EMPTY, conspicuously large negative space, matching the later companion's position. Identity/shoulder-length naturally wavy black hair, cream V-neck blouse and charcoal cardigan from image2, dark trousers and worn closed brown notebook from image3. She sits withdrawn with shoulders slightly folded, elbows near body, hands still around closed notebook on her lap, eyes lowered with shock and uncertainty, no smile, no theatrical crying. Medium-wide eye-level two-seat composition preserving the exact image1 background geometry and camera axis; show the vacant left seat and woman on right, knees included. Soft neutral daytime, slightly subdued exposure but not gloomy/horror. The narrative is 'before companionship', visually matched to image1 'after companionship'. No extra people, no nurse, no husband, no new girl, no duplicates, no text. Photorealistic clear youthful face, 2.39:1 landscape. Existing scene is a narrative continuity reference, do not add hospital logos or invent signage.",
       "sourcePromptKind": "修正關鍵影格提示詞",
@@ -788,6 +795,13 @@
           "生成長度、裁切範圍、參考素材標籤與模式一致"
         ],
         "checkpointPolicy": "保留已驗收片段；失敗只重抽本鏡。前鏡內容變更時才重新驗證相依接點。"
+      },
+      "frameNote": "01 的新首幀／02 的共用場景參考；02 的實際續接影格須由新版 01 末端取得。",
+      "backgroundRevision": {
+        "status": "pending_video_regeneration",
+        "reference": "assets/hospital-reference/inbox/醫院大廳.JPG",
+        "image": "assets/storyboard/latest/hall_ntu_lobby_v2.png",
+        "requirement": "Use the actual NTU Cancer Center atrium shown in the revised scene image: skylights, green butterfly sculptures, right-side gray metal waiting chairs and clinic doors. Preserve the woman and empty adjacent seat. Do not reintroduce the sofa, plants or invented corridor. Continue shot 02 from the generated end of revised shot 01."
       }
     },
     {
@@ -4341,7 +4355,7 @@
       "title": "整合主片 · 約 8 分鐘",
       "src": "media/film/index.m3u8",
       "duration": 480.7083333333333,
-      "note": "一至四幕接上新版互動終幕，統一為一支主片。打勾勾已確認；人物與其他最新關鍵影格尚未全部替換進影片，請依各鏡狀態檢查。"
+      "note": "目前播放的是舊版無聲整合試剪（約 8 分鐘），並非這輪有聲成片。請至「全片生成進度」播放已完成的新版影音片段；全片完成並審核後再替換主片。"
     }
   ],
   "downloads": [
