@@ -1,0 +1,34 @@
+{
+  "id": "ending_narration_01",
+  "kind": "h3",
+  "audioOnly": true,
+  "act": 5,
+  "title": "終幕旁白",
+  "seed": 521999,
+  "mode": "Ref2VA",
+  "frames": 192,
+  "deliveryFrames": 192,
+  "overlapFrames": 0,
+  "duration": 8,
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/ending_family_reaction.png",
+      "sha256": "45c1a58ad418175fc291f7815068fc2bbe711901c2d530fb7adabf3713090f56"
+    }
+  ],
+  "voiceReference": {
+    "job": "act02_question_01"
+  },
+  "speaker": "patient",
+  "offscreen": true,
+  "dialogue": [
+    "我們不劃掉夢想，我們一起打勾勾。"
+  ],
+  "textCues": [],
+  "checks": [],
+  "prompt": "subject_definitions:\n<Picture 1> is the hospital-family composition, providing the scene, characters and natural light.\n<Audio 1> provides the voice timbre of the Taiwanese woman (S4), retaining her clear, natural Taiwan Mandarin voice without copying words or background music.\n\nsummary:\n[keyframe completion + audio reference] A single eight-second shot retains the family scene while the woman’s off-screen voice delivers the final line. The soundtrack will accompany the actual island webpage in the edit.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain composition, people, clothing and natural light.\n<Audio 1>: reference - retain voice timbre and delivery only, without copying the source words or soundtrack.\n\ndetailed_description:\nThe target video uses live-action photographic realism.\n[Shot 1] Begin from <Picture 1>, keeping the same family, clothes, poses and room. The camera holds a static shot as the characters breathe naturally with lips closed. A natural adult Taiwanese female voice (S4), following the voice timbre of <Audio 1>, says in an off-screen voiceover: <d>[Chinese] 我們不劃掉夢想，我們一起打勾勾。</d> while her lips remain completely closed. Leave a brief quiet pause before the line, speak clearly at a gentle conversational pace, and finish before the final hold. No other voice, singing, captions or added lettering.\n\noverall_soundscape:\nNear-silent room ambience without distinct foreground sounds.\n\nnon_diegetic_music:\nN/A",
+  "promptSHA256": "a5be7a3fe97a1cd0825aea5a477c13ecb18785f5d7a7f0d4bef531c69a5d0019"
+}

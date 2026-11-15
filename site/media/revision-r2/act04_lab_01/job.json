@@ -1,0 +1,36 @@
+{
+  "id": "act04_lab_01",
+  "act": 4,
+  "title": "生育保存與等待",
+  "seed": 520109,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_lab_01-r2.png",
+      "sha256": "ecd38f8fc17f7e3ee7c2c1756073d6147d3bf587f4837853588d0f1d54815628"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 124,
+  "deliveryFrames": 124,
+  "duration": 5.166666666666667,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. A high-magnification optical microscope view of ICSI. A holding pipette gently stabilizes one mature oocyte on the left. A fine injection micropipette approaches horizontally from the right carrying one sperm, slowly enters the oocyte, deposits that single sperm and gently withdraws. The oocyte deforms slightly under contact and returns to shape. No embryo inserted into an egg, no instantaneous cell division, no electron-microscope texture and no huge syringe. A single uninterrupted microscope view. No dialogue, singing or narration. Visible people remain silent. The shot lasts 5.166666666666667 seconds. No subtitles or watermark.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "82ea07962356d42ee5a048a98c2462127a5e78d4314a61585587136ec4c89d60",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-618e8d06-13e0-4f98-a240-20aea0422120.png"
+}

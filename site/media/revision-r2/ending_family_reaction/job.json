@@ -1,0 +1,36 @@
+{
+  "id": "ending_family_reaction",
+  "act": 5,
+  "title": "回到家人的回應",
+  "seed": 521062,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/ending_family_reaction-r2.png",
+      "sha256": "59e59f6ba7439eab7d67a6e63cbdcb51e85ea14c45851b5e2781bf60ec506bee"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 175,
+  "deliveryFrames": 168,
+  "duration": 7.291666666666667,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. Father and daughter embrace facing each other. The little girl sits securely on her father’s arm with her chest and pelvis facing him, arms around his shoulders. Father’s hands support her upper back and seat naturally. The girl leans gently into his shoulder and he gives one soft reassuring hug. Mother watches beside them, smiling slightly. All three preserve the approved face, dark hair, age and clothing. Show their side profiles, no head-body twist. A physical display remains in the background without any foreground overlay. Camera remains steady. No dialogue, singing or narration. Visible people remain silent. The shot lasts 7.291666666666667 seconds. No subtitles or watermark.\n\noverall_soundscape: Quiet hospital atrium ambience with a light spacious reverberation and subtle clothing rustle. No public announcements or unrelated voices.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "7148f78223e06d7e7905607647d6c89c683e1920c29964e7d79e50b0ebc78a6a",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-15e5ad2f-8777-4f99-8dcb-288965ad62d9.png"
+}

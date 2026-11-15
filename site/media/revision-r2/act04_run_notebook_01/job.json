@@ -1,0 +1,45 @@
+{
+  "id": "act04_run_notebook_01",
+  "act": 4,
+  "title": "重新跑起來",
+  "seed": 520514,
+  "checks": [
+    "四格皆空",
+    "旁註小進展",
+    "四行內容一致",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [
+    {
+      "start": 0.2,
+      "end": 5.0,
+      "text": "今天又往前跑了一小段。"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_run_notebook_01-r2.png",
+      "sha256": "2a5bf9ca25d5cfb18bf029d6790c028e8da41975b09f93d44000bc648114a1c4"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 124,
+  "deliveryFrames": 124,
+  "duration": 5.166666666666667,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. Preserve all small handwritten wishes and the note \"今天又往前跑了一小段。\" as real ink on the page. Her breathing settles after jogging, her hand gently lowers the pen beside the notebook. Sunlight moves subtly with the breeze. No new writing, floating subtitles or changing letters. No dialogue, singing or narration. Visible people remain silent. The shot lasts 5.166666666666667 seconds. No subtitles or watermark.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "98495ee42c034cb2ab6f43d27279257bb28d3ad1c4fcd25c6e8061f419b7bb54",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-760a8517-7d42-4172-8f68-d390c373a6bc.png"
+}

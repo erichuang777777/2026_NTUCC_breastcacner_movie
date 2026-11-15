@@ -1,0 +1,40 @@
+{
+  "id": "act03_headwrap_01",
+  "act": 3,
+  "title": "溫柔戴上頭巾",
+  "seed": 519206,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": "partner",
+  "dialogue": [
+    "我不能替妳痛。"
+  ],
+  "textCues": [
+    {
+      "start": 0.3,
+      "end": 4.8,
+      "text": "我不能替妳痛。"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act03_headwrap_01.png",
+      "sha256": "ee92581c379354c6a0674a9169b152eead719e30d94a64a66093550d368f1f62"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "offscreen": false,
+  "frames": 226,
+  "deliveryFrames": 226,
+  "duration": 9.416666666666666,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. The husband is already cleanly shaved with only faint even stubble and remains bald throughout; do not grow hair. He gently smooths his wife’s gray headwrap at her temples, makes one small symmetric adjustment, then pauses. She watches their mirror reflection and takes a soft breath. Keep both faces in frame. Camera tracks only a few centimeters. No extra people, text or logos. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. After the opening settles, the husband (S5), speaking in a natural young adult Taiwanese male voice, warm low-mid pitch, quiet conversational Taiwan Mandarin without theatrical projection says: <d>[Chinese] 我不能替妳痛。</d> Only this speaker’s lips articulate the line; every other visible character remains a silent listener with lips together. The speaker finishes the line and closes the mouth before the final hold. The full shot lasts 9.417 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Low room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "75640b003c633e9a09a591a7178e8f79098c91e1778842dcf007875888669806"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "act03_headwrap_02",
+  "act": 3,
+  "title": "溫柔戴上頭巾",
+  "seed": 519207,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": "partner",
+  "dialogue": [
+    "但妳不會一個人。"
+  ],
+  "textCues": [
+    {
+      "start": 0.3,
+      "end": 5.0,
+      "text": "但妳不會一個人。"
+    }
+  ],
+  "dependsOn": "act03_headwrap_01",
+  "references": [],
+  "kind": "h3",
+  "overlapFrames": 22,
+  "offscreen": false,
+  "voiceReference": {
+    "job": "act03_headwrap_01"
+  },
+  "frames": 226,
+  "deliveryFrames": 204,
+  "duration": 9.416666666666666,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Video 1> is the final 56 frames of the preceding shot, supplying character poses, room layout and camera motion. Its final 22 frames form the opening motion guide of this target clip.\n<Subject 2> is the husband in the scene anchor, the only visible speaker in [Shot 1].\n<Audio 1> is the voice-timbre reference for <Subject 2> (S5), the husband, speaking in a natural young adult Taiwanese male voice, warm low-mid pitch, quiet conversational Taiwan Mandarin without theatrical projection. Reference vocal timbre and Taiwan Mandarin delivery only, not its words, music or environmental sound.\n\nsummary:\n[video continuation + audio reference] A single 9.417-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Video 1> ([Shot 1] opening movement): fully_preserved - retain the final 22 guide frames and develop forward from their final state.\n<Subject 2> (appears in [Shot 1]): fully_preserved - retain the same face, age and scene-specific clothing; allow only the described actions and synchronized speech.\n<Audio 1>: reference - use vocal identity and delivery; generate the new dialogue rather than copying source words or its soundtrack.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot opens with the final 22 frames of <Video 1> as its guide, then continues the existing movement without a pose or camera reset. The opening guide has no new speech. The same husband remains cleanly shaved with faint stubble; do not add hair. Keep the wife’s gray headwrap, identity, clothing, mirror and warm room unchanged. He gently lowers his hands and meets her eyes in the mirror; she gives a quiet restrained smile. Hold both people and reflections in the same stable composition. No hair regrowth, text or logos. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. After the opening settles, <Subject 2> (S5), the husband, speaking in a natural young adult Taiwanese male voice, warm low-mid pitch, quiet conversational Taiwan Mandarin without theatrical projection says: <d>[Chinese] 但妳不會一個人。</d> Only this speaker’s lips articulate the line; every other visible character remains a silent listener with lips together. The speaker finishes the line and closes the mouth before the final hold. The voice follows <Audio 1> without copying its words or background sound. The full shot lasts 9.417 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "2868eb3a47b0d466b54105dd5b45e66e5618042cff25a6dd4eebd32b625ead83"
+}

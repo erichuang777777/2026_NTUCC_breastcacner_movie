@@ -1,0 +1,41 @@
+{
+  "id": "act04_run_01",
+  "act": 4,
+  "title": "重新跑起來",
+  "seed": 520200,
+  "checks": [
+    "女主角光頭",
+    "先生極短寸頭",
+    "晴朗",
+    "四肢清楚",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [
+    {
+      "start": 0.2,
+      "end": 5.5,
+      "text": "在醫療團隊評估後，慢慢恢復活動"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_run_01.png",
+      "sha256": "acb85eadc581abbe0b6581a26a4822a650f2850c8dcd1d9cad4d6f5ab068782c"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. A medium full shot frames the same couple jogging side by side on a sunny Taipei riverside path. The woman has a completely bald scalp, gray running jacket and dark leggings. Her husband retains uniform 1–2 mm dark scalp stubble, a navy sports hoodie and dark trousers. The camera tracks alongside them at their easy jogging pace, maintaining a small lateral distance. Each foot plants on the path before pushing off; arms swing independently without crossing their bodies. Warm morning sunlight remains steady on their faces. They complete several relaxed strides and continue moving through the ending; neither person sprints or grows hair. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 8.000 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "b370bebd6ae4a16de679d624ef7bff34b435bc06b35d78a5b5239b01d6bf6061"
+}

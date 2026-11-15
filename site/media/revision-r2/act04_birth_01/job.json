@@ -1,0 +1,31 @@
+{
+  "id": "act04_birth_01",
+  "act": 4,
+  "title": "握住新生兒的小手",
+  "seed": 520111,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_birth_01.png",
+      "sha256": "e501fb9a0a19da59e2b9ef9b2c98aa0c88e10b0291f4eb156c1b60f57ce1b6c5"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 226,
+  "deliveryFrames": 226,
+  "duration": 9.416666666666666,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. One continuous live-action cinematic shot. Throughout the shot, the mother supports the swaddled newborn securely against her chest. The father leans gently closer and both parents look at the infant. The nurse makes a tiny smoothing motion on the existing blanket edge, without repositioning the baby. Camera physically dollies inward ten centimeters, keeping the infant safely supported and faces consistent. Newborn movement is only subtle breathing; no handling, lifting or exaggerated expressions. Natural subtle acting, realistic anatomy and coherent physical motion. Preserve identities and all existing objects. No new text, logos or people. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 9.417 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "aca13599597622b2f6075ff69548a205cc8088dbda3af944fa438c478c835474"
+}

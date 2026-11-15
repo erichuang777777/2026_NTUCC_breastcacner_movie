@@ -1,0 +1,37 @@
+{
+  "id": "ending_family_day",
+  "act": 5,
+  "title": "家人與螢幕",
+  "seed": 521056,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/ending_family_day-r2.png",
+      "sha256": "356293e98bc6e2414ae4518a224e17fbe9ee374b8f60e401c38346d3c5656907"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "postprocess": "island-screen",
+  "frames": 158,
+  "deliveryFrames": 144,
+  "duration": 6.583333333333333,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The same family stands in the real hospital atrium beside a permanently installed display with a physical frame and anchored pedestal. The display is present from the very first frame. Its surface, frame, stand and background remain geometrically rigid. Camera holds a locked-off shot. The family gently leans toward the display and watches. No screen appearing, growing, sliding, turning into a floating rectangle or occlusion of the display. Preserve the neutral dim screen for tracked insertion of the actual website. No dialogue, singing or narration. Visible people remain silent. The shot lasts 6.583333333333333 seconds. No subtitles or watermark.\n\noverall_soundscape: Quiet hospital atrium ambience with a light spacious reverberation and subtle clothing rustle. No public announcements or unrelated voices.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "a70c11925ad123c7e4fcc2c9be054944dd343584a2dadb5a6d47fadcde2dbacb",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-2a3e5155-c8e8-4efb-bc36-1bca4e8af189.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "act03_rest_02",
+  "act": 3,
+  "title": "疲憊中的陪伴",
+  "seed": 520525,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": "act03_rest_01",
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "identity",
+      "file": "inputs/ho_front_gpt_v1.png",
+      "identity": "woman",
+      "sha256": "104de13642727df13ec3313bcae43bc1fbe375c957f5be3dd83b30538791bbb5"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 22,
+  "frames": 260,
+  "deliveryFrames": 238,
+  "duration": 10.833333333333334,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Video 1> is the final 56 frames of the preceding shot, supplying character poses, room layout and camera motion. Its final 22 frames form the opening motion guide of this target clip.\n<Subject 3> is the woman whose facial identity comes from <Picture 1>; wardrobe, age, hairstyle and pose remain those of the scene anchor.\n\nsummary:\n[video continuation] A single 10.833-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Video 1> ([Shot 1] opening movement): fully_preserved - retain the final 22 guide frames and develop forward from their final state.\n<Subject 3> (appears in [Shot 1]): fully_preserved - retain facial identity without importing portrait clothing, hair or background.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot opens with the final 22 frames of <Video 1> as its guide, then continues the existing movement without a pose or camera reset. The opening guide has no new speech. Preserve the facial identity of <Subject 3> in their scene position. same medium shot, continuing backward dolly. At the beginning, she rests with the phone at her lower chest. Next, she briefly closes her eyes. Toward the end, her eyes open slightly and the camera settles. Faces stay clearly focused, natural skin texture and facial proportions remain stable. The phone is held stationary against her lower chest, its dark graphite BACK and three rear camera lenses facing the filming camera throughout. Its screen faces inward toward her body and is never visible. Keep the same opaque dark phone back, same three rear camera lenses and same hand grip from beginning to end. Warm household lamps illuminate natural skin and blanket; any faint screen spill is neutral white, never green or cyan. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 10.833 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "9dc4c3033eea26595cf351ad7afa61c07a0ba1e77797eed5a671e9192bfc8437"
+}

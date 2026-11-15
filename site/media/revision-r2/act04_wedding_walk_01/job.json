@@ -1,0 +1,34 @@
+{
+  "id": "act04_wedding_walk_01",
+  "act": 4,
+  "title": "海灘婚禮",
+  "seed": 520204,
+  "checks": [
+    "看見沙地不是草地",
+    "婚禮衣著與人物一致",
+    "不新增醫院承諾",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_wedding_walk_01.png",
+      "sha256": "b3fb244219e87f742bb9c252a1d4ef1514897dcdf5d2de0b97958ad8c898d8fd"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 158,
+  "deliveryFrames": 158,
+  "duration": 6.583333333333333,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. A medium full shot frames the same bride in her white lace gown, white flower crown and long dark wedding wig walking hand in hand with the groom in his dark suit. Both step slowly across beach sand. The camera tracks backward at their walking speed, keeping their faces and naturally joined hands clear. The gown hem brushes the sand and each foot leaves a consistent shallow impression. Their hands remain joined in the original grip; the shoreline stays behind them. Continue walking through the final frame without a pose reset. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 6.583 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "082884883b0668daeb3116119363b855d4aaea34b63bcd077b8acbc5e1a309c9"
+}

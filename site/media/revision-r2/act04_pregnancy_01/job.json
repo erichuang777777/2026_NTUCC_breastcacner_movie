@@ -1,0 +1,40 @@
+{
+  "id": "act04_pregnancy_01",
+  "act": 4,
+  "title": "新生命的訊息",
+  "seed": 520110,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [
+    {
+      "start": 0.2,
+      "end": 5.0,
+      "text": "術後第 3 年半"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_pregnancy_01.png",
+      "sha256": "0ba52aae11c5f3f0af94897d744c88b5b1182f76b32685e46f75b0eedaddf5d7"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. As the clinician gently slides and tilts the transducer, the live grayscale ultrasound cross-section updates continuously and coherently with the movement. The scan settles when the probe pauses. Keep the existing pregnancy stage and visible anatomy from the reference; do not invent gestational age labels. The mother releases a quiet breath and the partner gently squeezes her hand. Monitor casing and user interface remain fixed. No dialogue, singing or narration. Visible people remain silent. The shot lasts 8.0 seconds. No subtitles or watermark.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "3a83e074a2d6a61c87a40e23d10cd3c3c343173eafb571fda7ec2471003fbb26",
+  "revision": "r2",
+  "needsVisualReview": true
+}

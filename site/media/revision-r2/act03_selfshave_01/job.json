@@ -1,0 +1,45 @@
+{
+  "id": "act03_selfshave_01",
+  "act": 3,
+  "title": "阿澤剃自己的頭髮",
+  "seed": 519334,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act03_selfshave_01.png",
+      "sha256": "39cc5d1d3b9435b15004f60f1b2dbfeae49549f03eae295c8bea8f8d2929ec50"
+    },
+    {
+      "label": "<Picture 2>",
+      "kind": "identity",
+      "file": "inputs/ho_front_gpt_v1.png",
+      "identity": "woman",
+      "sha256": "104de13642727df13ec3313bcae43bc1fbe375c957f5be3dd83b30538791bbb5"
+    },
+    {
+      "label": "<Picture 3>",
+      "kind": "identity",
+      "file": "inputs/aze_front_gpt_v1.png",
+      "identity": "husband",
+      "sha256": "6b7ebb8c207bd5047f9215c0c66e39f77597095acc60b7062751e6543981c236"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Subject 3> is the woman whose facial identity comes from <Picture 2>; wardrobe, age, hairstyle and pose remain those of the scene anchor.\n<Subject 4> is the husband whose facial identity comes from <Picture 3>; wardrobe, age, hairstyle and pose remain those of the scene anchor.\n\nsummary:\n[keyframe completion + reference generation] A single 8.000-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Subject 3> (appears in [Shot 1]): fully_preserved - retain facial identity without importing portrait clothing, hair or background.\n<Subject 4> (appears in [Shot 1]): fully_preserved - retain facial identity without importing portrait clothing, hair or background.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement. Preserve the facial identity of <Subject 3> in their scene position. Preserve the facial identity of <Subject 4> in their scene position. medium two shot, slow lateral dolly toward the wife. At the beginning, husband with FULL short dark hair brings his clipper toward his own right temple. Next, he trims only one tiny two-centimeter strip at that temple; the crown and other side retain full original hair. Toward the end, he pauses the clipper away from his own head and looks to his wife; she breathes and looks back; the rest of his hair stays intact. Faces stay clearly focused, natural skin texture and facial proportions remain stable. Wife keeps her headwrap fully on throughout; the clipper belongs only to husband and stays far from wife. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 8.000 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "3988bb647d2e814c37b1818f2371675779eb080f3135da80b44de2595b53849d"
+}

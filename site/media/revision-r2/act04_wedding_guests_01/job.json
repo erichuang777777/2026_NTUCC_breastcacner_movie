@@ -1,0 +1,34 @@
+{
+  "id": "act04_wedding_guests_01",
+  "act": 4,
+  "title": "海灘婚禮",
+  "seed": 520105,
+  "checks": [
+    "看見沙地不是草地",
+    "婚禮衣著與人物一致",
+    "不新增醫院承諾",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_wedding_guests_01.png",
+      "sha256": "002533c0e2b55a5032877a72351e49e17df59d5f9442c346f5102532add835b8"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 124,
+  "deliveryFrames": 124,
+  "duration": 5.166666666666667,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. A medium shot preserves the three foreground adult guests, their faces, clothing and seated positions. They look toward the couple off camera in front of them and clap gently in separate natural rhythms. The camera holds a static shot, with attention on clear faces and believable finger spacing. Softly defocused sand, sea and distant empty chairs remain behind them. The bride, groom and ceremony arch stay outside the frame in the guests’ viewing direction. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 5.167 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "14aee95ba12b1c29bdaab767ba206854db2eedf1d574bf46155ec649355515e3"
+}

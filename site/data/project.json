@@ -4156,11 +4156,11 @@
   "videos": [
     {
       "id": "film",
-      "title": "整合主片 · 約 8 分鐘",
-      "src": "media/film/index.m3u8",
+      "title": "修正版整合片 · 團隊審片",
+      "src": "media/revision-r2/film/index.m3u8",
       "duration": 485.6666666666667,
-      "note": "舊版已下架；修正版整合完成前，請至影音生成頁檢查已完成片段。",
-      "replacementPending": true
+      "note": "完整新版已完成；請逐鏡播放並留下團隊意見。",
+      "replacementPending": false
     }
   ],
   "downloads": [

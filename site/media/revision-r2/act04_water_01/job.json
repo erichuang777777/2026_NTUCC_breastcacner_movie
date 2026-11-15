@@ -1,0 +1,34 @@
+{
+  "id": "act04_water_01",
+  "act": 4,
+  "title": "停下來喝水",
+  "seed": 520201,
+  "checks": [
+    "男主角與慢跑同寸頭",
+    "女主角維持光頭",
+    "遞水握持自然",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_water_01.png",
+      "sha256": "d81239693dd2b30cc3133c9d08c63bbd784309b8f84e6305d340e1b2d86f542f"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 158,
+  "deliveryFrames": 158,
+  "duration": 6.583333333333333,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. A medium shot frames the bald woman and her husband with uniform 1–2 mm scalp stubble in the same sunny riverside setting and running clothes. Starting from the bottle and hands in the reference, he continues supporting its weight while her fingers close naturally around it. Only after her grip is secure does he release it and lower his hand. She holds the bottle without drinking. The camera holds a static shot while their hands supply the motion; sunlight, faces and hair length remain stable. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 6.583 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "d018ed5ed039c13bd5351055bbf7a88795eacddd65065fefa1045c1f443c5a1a"
+}

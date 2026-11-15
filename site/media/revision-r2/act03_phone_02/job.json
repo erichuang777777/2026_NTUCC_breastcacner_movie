@@ -1,0 +1,37 @@
+{
+  "id": "act03_phone_02",
+  "act": 3,
+  "title": "查閱照護資訊",
+  "seed": 519523,
+  "checks": [
+    "與首格同一人同衣著",
+    "只改自由手與微表情",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [
+    {
+      "start": 0.1,
+      "end": 3.7,
+      "text": "若持續嘔吐、無法進食或出現脫水症狀，"
+    },
+    {
+      "start": 3.7,
+      "end": 7.0,
+      "text": "請立即聯絡醫療團隊或就醫。"
+    }
+  ],
+  "dependsOn": "act03_phone_01",
+  "references": [],
+  "kind": "h3",
+  "overlapFrames": 22,
+  "frames": 192,
+  "deliveryFrames": 170,
+  "duration": 8.0,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Video 1> is the final 56 frames of the preceding shot, supplying character poses, room layout and camera motion. Its final 22 frames form the opening motion guide of this target clip.\n\nsummary:\n[video continuation] A single 8.000-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Video 1> ([Shot 1] opening movement): fully_preserved - retain the final 22 guide frames and develop forward from their final state.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot opens with the final 22 frames of <Video 1> as its guide, then continues the existing movement without a pose or camera reset. The opening guide has no new speech. The same young woman in her gray headwrap and charcoal hoodie remains reclined on the sofa, holding the same phone at the same angle. Continue the established shot size and slow forward camera movement. Her eyes remain on the phone; her brow relaxes slightly without a recovery smile. At the end her hand rests on the blanket. The phone remains opaque and rigid in the left hand, with a soft neutral-white blank screen and warm skin tones. Preserve her 32-year-old face, headwrap, sofa and lighting. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 8.000 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "01ef13067e949275d317bef3a3abd11d2840f10ad1be90447608fbeaf66f5d59"
+}

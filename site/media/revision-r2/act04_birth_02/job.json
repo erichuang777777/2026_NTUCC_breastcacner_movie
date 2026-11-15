@@ -1,0 +1,24 @@
+{
+  "id": "act04_birth_02",
+  "act": 4,
+  "title": "握住新生兒的小手",
+  "seed": 520112,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": "act04_birth_01",
+  "references": [],
+  "kind": "h3",
+  "overlapFrames": 22,
+  "frames": 209,
+  "deliveryFrames": 187,
+  "duration": 8.708333333333334,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Video 1> is the final 56 frames of the preceding shot, supplying character poses, room layout and camera motion. Its final 22 frames form the opening motion guide of this target clip.\n\nsummary:\n[video continuation] A single 8.708-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Video 1> ([Shot 1] opening movement): fully_preserved - retain the final 22 guide frames and develop forward from their final state.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot opens with the final 22 frames of <Video 1> as its guide, then continues the existing movement without a pose or camera reset. The opening guide has no new speech. Use the supplied continuation guide frames as the exact identity, wardrobe, staging, motion and environment reference; begin from their ending positions. One continuous live-action cinematic shot. The father gently lowers his forehead nearer the mother, stopping without covering the newborn. She glances toward him then back at the securely swaddled baby. Their hands maintain support. Camera eases to a quiet hold with natural breathing and slight cloth movement. No new medical actions or infant repositioning. Natural subtle acting, realistic anatomy and coherent physical motion. Preserve identities and all existing objects. No new text, logos or people. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 8.708 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nNatural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "5ac43ffcad89b7300eaa9b1cf2e89f7e6c81267b243647ff2cb4f3deaf494de2"
+}

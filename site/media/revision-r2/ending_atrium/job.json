@@ -1,0 +1,31 @@
+{
+  "id": "ending_atrium",
+  "act": 5,
+  "title": "醫院中庭",
+  "seed": 521054,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/ending_atrium.png",
+      "sha256": "fa3d9f9b784ca59b9cd8bc2b31eb77bff8a88a9db2f074823637fca9cbe0b21c"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 243,
+  "deliveryFrames": 240,
+  "duration": 10.125,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. Cinematic live-action, realistic continuous movement. One uninterrupted shot. Physically dolly forward 60 centimeters at eye level across the atrium floor; the near floor pattern moves relative to far reception and upper railings with clear perspective parallax. Gently tilt upward a few degrees toward the oval skylight toward the end. Preserve exact architecture, staircase, wall geometry. No added people, screens, text, or objects. Natural soft neutral light. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 10.125 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Quiet hospital atrium ambience with a light spacious reverberation and subtle clothing rustle. No public announcements or unrelated voices.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "8d07965d56d864ad5ef20b8fe0943be19e0b079325b81789b14f20a97f7d63e3"
+}

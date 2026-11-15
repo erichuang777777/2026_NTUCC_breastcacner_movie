@@ -1,0 +1,44 @@
+{
+  "id": "act03_night_01",
+  "act": 3,
+  "title": "夜裡的不舒服",
+  "seed": 519520,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [
+    {
+      "start": 0.3,
+      "end": 4.0,
+      "text": "凌晨 03:20"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act03_night_01.png",
+      "sha256": "7aa38cfa60d4adaa4be0cee8bd79e6c0fa3538f222f7f044b293dc305c515ec3"
+    },
+    {
+      "label": "<Picture 2>",
+      "kind": "identity",
+      "file": "inputs/ho_front_gpt_v1.png",
+      "identity": "woman",
+      "sha256": "104de13642727df13ec3313bcae43bc1fbe375c957f5be3dd83b30538791bbb5"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 226,
+  "deliveryFrames": 226,
+  "duration": 9.416666666666666,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Subject 3> is the woman whose facial identity comes from <Picture 2>; wardrobe, age, hairstyle and pose remain those of the scene anchor.\n\nsummary:\n[keyframe completion + reference generation] A single 9.417-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Subject 3> (appears in [Shot 1]): fully_preserved - retain facial identity without importing portrait clothing, hair or background.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement. Preserve the facial identity of <Subject 3> in their scene position. medium-wide shot, slow forward dolly. At the beginning, the tired woman in gray headwrap lies curled on the sofa and breathes. Next, she reaches her hand toward the white-screen phone on the table. Toward the end, her hand pauses beside the phone as she exhales. Faces stay clearly focused, natural skin texture and facial proportions remain stable. Phone illumination is exclusively soft neutral WHITE with warm household fill, naturally colored face neck fingers and blanket; display remains simple white, without green/cyan glow. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 9.417 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "b3dc587e111aef2f53dd90a9fd58740e8443851a068debf1b87f538299bd8519"
+}

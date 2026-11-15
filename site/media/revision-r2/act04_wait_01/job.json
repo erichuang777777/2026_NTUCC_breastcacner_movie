@@ -1,0 +1,37 @@
+{
+  "id": "act04_wait_01",
+  "act": 4,
+  "title": "等待與希望",
+  "seed": 520108,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [
+    {
+      "start": 0.3,
+      "end": 5.9,
+      "text": "依計畫等待、回診追蹤。"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act04_wait_01.png",
+      "sha256": "a6616353fcea0d70c80a862679be005f1b8d353b0fd8296908ffdf93cefecec2"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 158,
+  "deliveryFrames": 158,
+  "duration": 6.583333333333333,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. One continuous live-action cinematic shot. Throughout the shot, the couple sit closely in the same fertility-center waiting area. The woman slowly lowers the document a few centimeters and leans toward her husband. He looks from the document to her face and gently maintains his hand over hers. Camera physically dollies forward 15 centimeters. Keep background staff softly blurred and avoid adding people. Natural subtle acting, realistic anatomy and coherent physical motion. Preserve identities and all existing objects. No new text, logos or people. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 6.583 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Natural ambience matching the visible location: soft footsteps outdoors, gentle surf at the beach, or quiet room ventilation indoors. Physical sounds follow visible contacts.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "e2ba1d920bc22f55090e6c4d89c01a833961bf828eea97e16bbd2b456e976b14"
+}
