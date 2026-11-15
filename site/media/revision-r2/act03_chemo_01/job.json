@@ -1,0 +1,37 @@
+{
+  "id": "act03_chemo_01",
+  "act": 3,
+  "title": "治療中的等待",
+  "seed": 519100,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [
+    {
+      "start": 0.3,
+      "end": 5.0,
+      "text": "術後第 2 個月・輔助化療"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act03_chemo_01.png",
+      "sha256": "cf89d68efc379a3385c3a3782c725ad48c60d5e3c124a935ab8a3d5ce7a16fcb"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 226,
+  "deliveryFrames": 226,
+  "duration": 9.416666666666666,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. One continuous live-action shot. Throughout the shot, the seated woman looks toward her resting arm then back toward the nurse. The nurse makes one small adjustment to the blanket beside the arm, keeping the existing IV connection untouched. Camera physically tracks slowly 20 cm to the right, producing foreground IV-pole parallax against the window. Keep the infusion equipment and liquid level stable; no needle insertion or medication handling. Preserve anatomy, face proportions and all existing objects; natural breathing and blinking. No extra people, no text or logos. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 9.417 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Low room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "884604e57fe0874dc90f63ad7a19fac2a232ac4478f91ce6e61464424da62e91"
+}
