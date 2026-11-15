@@ -1,0 +1,36 @@
+{
+  "id": "act01_corridor_01",
+  "act": 1,
+  "title": "獨坐的空位，等待被陪伴",
+  "seed": 517322,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act01_corridor_01-r2.png",
+      "sha256": "4c8f89867ee8cc358257d3fefd55c6c7feaf4d82007852592c80a821b4d06fb5"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 226,
+  "deliveryFrames": 226,
+  "duration": 9.416666666666666,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. Use the actual NTU Cancer Center atrium in Picture 1. Preserve rectangular skylights, green butterfly sculptures, tan cladding, gray metal waiting chairs on the right and clinic doors. The same woman sits alone hugging her brown notebook, an empty adjacent chair clearly visible on her left. Her fingers tighten then ease around the notebook and she exhales. The camera slowly trucks a small distance right. No sofa, plants, invented corridor, new people or change of room. No dialogue, singing or narration. Visible people remain silent. The shot lasts 9.416666666666666 seconds. No subtitles or watermark.\n\noverall_soundscape: Quiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "0ebd0e8ec5931b08c17885fdc91519f2954aab3b06a2841b964866b166a32bf5",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/Desktop/breastcancer_island_of_hope_movie/videos/hope-island-film/assets/storyboard/latest/hall_ntu_lobby_v2.png"
+}
