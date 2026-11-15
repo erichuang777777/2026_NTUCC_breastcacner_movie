@@ -1,0 +1,24 @@
+{
+  "id": "act03_chemo_02",
+  "act": 3,
+  "title": "治療中的等待",
+  "seed": 519101,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": "act03_chemo_01",
+  "references": [],
+  "kind": "h3",
+  "overlapFrames": 22,
+  "frames": 226,
+  "deliveryFrames": 204,
+  "duration": 9.416666666666666,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Video 1> is the final 56 frames of the preceding shot, supplying character poses, room layout and camera motion. Its final 22 frames form the opening motion guide of this target clip.\n\nsummary:\n[video continuation] A single 9.417-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Video 1> ([Shot 1] opening movement): fully_preserved - retain the final 22 guide frames and develop forward from their final state.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot opens with the final 22 frames of <Video 1> as its guide, then continues the existing movement without a pose or camera reset. The opening guide has no new speech. One continuous live-action shot. The nurse settles her hands beside the arm and slowly straightens her posture slightly. The woman exhales and relaxes the fingertips resting on her notebook. Continue the gentle rightward camera track and ease to a stop. Keep all IV tubing connected, stationary and unchanged; no medical intervention. Preserve anatomy, face proportions and all existing objects; natural breathing and blinking. No extra people, no text or logos. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 9.417 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow room ambience, restrained breathing and soft fabric movements synchronized to the visible action. Phone handling produces only quiet contact sounds; there are no alerts or other voices.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "423efb3bd89e7d40eeaaa09d640cc2488801fddd6268087ffd13d679342b360b"
+}
