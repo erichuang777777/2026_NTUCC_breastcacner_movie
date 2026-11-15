@@ -1,0 +1,31 @@
+{
+  "id": "act01_exam_01",
+  "act": 1,
+  "title": "接受檢查",
+  "seed": 517004,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act01_exam_01.png",
+      "sha256": "87d312af0e63f296aab2be9ca12fc3770159eadb62ddb7ec10483cffc5858ff3"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. A continuous live-action shot in the same ultrasound examination room. Preserve the same Taiwanese patient, clinician, examination gown, bed, monitor and probe arrangement. The patient breathes gently and shifts her eyes from the clinician toward the monitor. The clinician makes a small careful adjustment of the probe while her other hand briefly operates one console control. The camera slowly tracks a short distance to the right with natural parallax between the clinician foreground and the patient, maintaining the original respectful framing. Keep the displayed grayscale image visually stable, without adding diagnostic labels, measurements or new devices. Natural restrained uncertainty, clinical lighting and realistic anatomy. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. People remain silent with lips naturally at rest; there is no dialogue, singing or narration. The full shot lasts 8.000 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape: Quiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "3d32ceb0896c7b74546411c4008a3759fb95a19948885b6c8a5b46470a02249d"
+}

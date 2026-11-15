@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nurse",
+    "shot": "act02_nurse_01",
+    "title": "個管師陪伴｜女聲與聆聽",
+    "source": "assets/storyboard/kf_011.png",
+    "frames": 226,
+    "seed": 517011,
+    "lines": [
+      "妳現在想把它們劃掉，我可以理解。",
+      "今天不用急著相信一切都會沒事。"
+    ],
+    "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism, a medium three-person shot begins from <Picture 1> in the same softly lit consultation room. Preserve the navy-scrub nurse on the left, the 32-year-old woman with wavy black hair, cream blouse and charcoal cardigan in the center holding her worn brown notebook, and her husband in his navy hoodie on the right. The nurse keeps her hand lightly on the woman’s upper arm. The camera trucks right with small amplitude at slow speed, moving only a few centimeters while preserving all three faces and gentle table-to-bookshelf parallax. The nurse on the left (S1) speaks in a warm, natural adult female voice, conversational Taiwanese Mandarin with a Taiwan accent, gentle sentence-final intonation, clear unforced articulation and a measured pace: <d>[Chinese] 妳現在想把它們劃掉，我可以理解。</d> She pauses briefly, keeping eye contact with the patient, then continues in the same voice: <d>[Chinese] 今天不用急著相信一切都會沒事。</d> Only the nurse’s mouth articulates these words. The patient listens with closed lips, lowers her eyes to the notebook, then exhales through a small shoulder release. The husband watches quietly with his mouth closed and keeps supporting her hand. As the nurse finishes, her mouth closes naturally; the shot holds the quiet exchange through the end. Their hands retain the reference contact positions, with no new grip or extra fingers. Maintain realistic facial texture, stable lighting and the same room. This is one uninterrupted 9.417-second shot. No captions, subtitles, logos, new people or direct address to the camera.\n\noverall_soundscape: Quiet consultation-room ventilation remains low and steady. Subtle clothing rustle accompanies the patient’s shoulder movement. Speech is clear and forward in the mix; there are no other voices or announcements.\n\nnon_diegetic_music: Sparse soft felt-piano notes at a slow tempo, with a faint sustained cello tone. Keep the instrumental score much quieter than the dialogue, without vocals or percussion; let the final notes decay gently.",
+    "src": "media/av-standard-pilot/nurse-720p.mp4",
+    "maxTemperature": 82
+  },
+  {
+    "id": "doctor",
+    "shot": "act02_fertility_01",
+    "title": "生育保存諮詢｜男聲與嚴肅表情",
+    "source": "assets/storyboard/latest/fertility_serious.png",
+    "frames": 243,
+    "seed": 518014,
+    "lines": [
+      "是否需要化療，要看術後風險評估。",
+      "我們會先轉介生殖醫學團隊，討論保存選項。"
+    ],
+    "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism, a medium two-person consultation shot begins from <Picture 1>. The same bespectacled Taiwanese male doctor in a white coat sits at the left, holding the tablet with one hand; the same 32-year-old woman in a cream blouse and charcoal cardigan sits at the right with her hand near her chin. Preserve their facial identities, hair, the notebook on the table, the tablet’s existing diagram, window light and wooden room geometry. The camera pushes in with small amplitude at slow speed, traveling roughly ten centimeters throughout the shot while keeping both faces and the tablet visible. The doctor on the left (S1) speaks in a natural adult male voice with a mid-low pitch, calm conversational Taiwanese Mandarin, a Taiwan accent, clear articulation and a measured professional pace: <d>[Chinese] 是否需要化療，要看術後風險評估。</d> He briefly looks from the tablet toward the patient and continues in the same voice: <d>[Chinese] 我們會先轉介生殖醫學團隊，討論保存選項。</d> His free hand makes one small explanatory gesture beside the tablet, then settles on the table; the other hand keeps supporting the tablet. The patient remains silent with her lips together, considers the diagram, then meets his gaze with a small thoughtful nod. Only the doctor articulates speech. Both keep serious, attentive expressions without smiling or showing teeth in a grin; neither looks toward the camera. After completing the sentence the doctor closes his mouth and waits. Keep the existing screen artwork unchanged. Maintain a single continuous 10.125-second shot with natural blinking and breathing, sharp faces and stable background edges. No generated captions, subtitles, labels, additional people or changes to the patient’s age.\n\noverall_soundscape: Low consultation-room ventilation and a soft sleeve rustle remain beneath the dialogue. A quiet physical tap occurs when the doctor’s hand settles on the table. The doctor’s voice remains dominant, with no other speech or hospital announcements.\n\nnon_diegetic_music: Very soft, widely spaced felt-piano notes with a sustained low cello tone, played slowly without percussion or singing. Keep the score below the spoken voice throughout, without a dramatic swell; the last note decays after the speech.",
+    "src": "media/av-standard-pilot/doctor-720p.mp4",
+    "maxTemperature": 82
+  }
+]
