@@ -1,0 +1,39 @@
+{
+  "id": "act01_notebook_01",
+  "act": 1,
+  "title": "願望清單",
+  "seed": 517314,
+  "checks": [
+    "四行繁中逐字核對",
+    "四格皆空",
+    "35歲只出現於升經理",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act01_notebook_01-r2.png",
+      "sha256": "0e36de20c87a61e7dbc3423717b70f9e2b66b2d1e9804c75c5c825a7c8c42a92"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 158,
+  "deliveryFrames": 158,
+  "duration": 6.583333333333333,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The small handwritten wish list is physical ink on the curved paper. All existing lettering remains identical, follows the page perspective and moves only with the notebook. The camera slowly pushes in; her thumb gently settles at the page edge. Do not write new letters or add floating text. No dialogue, singing or narration. Visible people remain silent. The shot lasts 6.583333333333333 seconds. No subtitles or watermark.\n\noverall_soundscape: Quiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "2ad2ba834801005814765141fec5898536780c2b2ce915f322d26100f1b13683",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-00906be7-131a-4e46-b2b4-53f5844b97a2.png"
+}

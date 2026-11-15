@@ -1,0 +1,34 @@
+{
+  "id": "act01_exam_01",
+  "act": 1,
+  "title": "接受檢查",
+  "seed": 517004,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act01_exam_01.png",
+      "sha256": "87d312af0e63f296aab2be9ca12fc3770159eadb62ddb7ec10483cffc5858ff3"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The clinician slowly slides the transducer a short distance while keeping contact with skin and gel, then gently tilts it. The live grayscale ultrasound tissue cross-section visibly changes continuously in synchrony with each probe movement. When the transducer pauses, the scan settles. The monitor casing and interface stay fixed. The patient subtly tightens her fingertips against her garment once, then releases a restrained breath. No frozen scan or sliding whole-screen image. No dialogue, singing or narration. Visible people remain silent. The shot lasts 8.0 seconds. No subtitles or watermark.\n\noverall_soundscape: Quiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "4643957a540b5ca1838ca3fc687f05e94b2aac2436d9949f3f185aa9cff3d51e",
+  "revision": "r2",
+  "needsVisualReview": true
+}
