@@ -1,0 +1,49 @@
+{
+  "id": "act02_nurse_reaction_01",
+  "act": 2,
+  "title": "個管師坐到身邊",
+  "seed": 517013,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": "lin",
+  "dialogue": [
+    "妳後續需要內分泌治療。",
+    "將來若想懷孕，"
+  ],
+  "textCues": [
+    {
+      "start": 0.15,
+      "end": 3.4,
+      "text": "妳後續需要內分泌治療。"
+    },
+    {
+      "start": 3.4,
+      "end": 6.4,
+      "text": "將來若想懷孕，"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act02_nurse_reaction_01.png",
+      "sha256": "b7fd2bc6807a9f40bb8f8376a8562f049c395697559227a8e8ea1b9a2dc79f42"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "offscreen": true,
+  "voiceReference": {
+    "file": "inputs/voice-lin.wav"
+  },
+  "frames": 158,
+  "deliveryFrames": 158,
+  "duration": 6.583333333333333,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Audio 1> is the voice-timbre reference for a natural adult Taiwanese male voice, mid-low pitch, clear Taiwan Mandarin and a calm professional pace (S3). Reference vocal timbre and Taiwan Mandarin delivery only, not its words, music or environmental sound.\n\nsummary:\n[keyframe completion + reference generation + audio reference] A single 6.583-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Audio 1>: reference - use vocal identity and delivery; generate the new dialogue rather than copying source words or its soundtrack.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. Preserve all people and their facial proportions. Live-action continuous photographic motion, restrained emotion. Close shot of the same woman in the cream blouse and charcoal cardigan, facing the softly blurred white-clad person at frame left. Preserve this exact camera axis and the table, window and notebook positions. At the beginning, her gaze drops toward the tabletop. Next, she exhales and blinks once, her brows softening slightly. Toward the end, she lifts her eyes back toward the person at left with a very small tentative nod. A gentle physical dolly forward of 12 cm brings her eyes closer while the near shoulder shifts subtly against the distant window. No sudden smile or head turn. No generated lettering or added graphics. Preserve blinking, eye movement and the small nod. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. After the opening settles, a natural adult Taiwanese male voice, mid-low pitch, clear Taiwan Mandarin and a calm professional pace (S3) says in an off-screen voiceover: <d>[Chinese] 妳後續需要內分泌治療。將來若想懷孕，</d> while all visible characters’ lips remain completely closed. The voice follows <Audio 1> without copying its words or background sound. The full shot lasts 6.583 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow consultation-room ventilation and subtle sleeve and paper rustle. Spoken dialogue remains clear and louder than the room sounds, with no public announcements.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "f7b477ee1fed1f25aeb9281e6efedf7b2211827e4a2f903fd50b9a216d4ed2ac"
+}
