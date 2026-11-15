@@ -1,0 +1,51 @@
+{
+  "id": "act02_endocrine_01",
+  "act": 2,
+  "title": "嚴肅討論生育保存",
+  "seed": 518214,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": "lin",
+  "dialogue": [
+    "必須由團隊評估暫停與恢復治療的時機，",
+    "不能自己停藥。"
+  ],
+  "textCues": [
+    {
+      "start": 0.1,
+      "end": 4.4,
+      "text": "必須由團隊評估暫停與恢復治療的時機，"
+    },
+    {
+      "start": 4.4,
+      "end": 7.8,
+      "text": "不能自己停藥。"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act02_endocrine_01.png",
+      "sha256": "daf8bc25b06d9d1443861067866ab86d5d6a31be45d543197ba1bfe18462b7c4"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "offscreen": false,
+  "voiceReference": {
+    "file": "inputs/voice-lin.wav"
+  },
+  "postprocess": "tablet-explanation",
+  "postprocessNote": "保留醫學原圖；後製另加清楚三步說明，避免模型重畫繁中文字。",
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Subject 2> is the bespectacled male doctor in the white coat in the scene anchor, the only visible speaker in [Shot 1].\n<Audio 1> is the voice-timbre reference for <Subject 2> (S3), the bespectacled male doctor in the white coat, speaking in a natural adult Taiwanese male voice, mid-low pitch, clear Taiwan Mandarin and a calm professional pace. Reference vocal timbre and Taiwan Mandarin delivery only, not its words, music or environmental sound.\n\nsummary:\n[keyframe completion + reference generation + audio reference] A single 8.000-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Subject 2> (appears in [Shot 1]): fully_preserved - retain the same face, age and scene-specific clothing; allow only the described actions and synchronized speech.\n<Audio 1>: reference - use vocal identity and delivery; generate the new dialogue rather than copying source words or its soundtrack.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. One continuous serious fertility-preservation consultation. Doctor looks at the tablet then the woman and makes one small restrained explanatory hand gesture. The uncertainty of a treatment decision remains; do not perform relief or celebrate an outcome. Neither person looks toward the camera. Camera slowly dollies inward at constant gentle speed, no reset at the continuation boundary. Preserve natural youthful face, no aging or smoothing. Screen artwork fixed for later postproduction. No generated text. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. The doctor’s brow, eyes and jaw remain relaxed and compassionate while he explains the uncertainty seriously. His speaking mouth opens modestly; he does not grimace, scowl or force a smile. After the opening settles, <Subject 2> (S3), the bespectacled male doctor in the white coat, speaking in a natural adult Taiwanese male voice, mid-low pitch, clear Taiwan Mandarin and a calm professional pace says: <d>[Chinese] 必須由團隊評估暫停與恢復治療的時機，不能自己停藥。</d> Only this speaker’s lips articulate the line; every other visible character remains a silent listener with lips together. The speaker finishes the line and closes the mouth before the final hold. The voice follows <Audio 1> without copying its words or background sound. The full shot lasts 8.000 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow consultation-room ventilation and subtle sleeve and paper rustle. Spoken dialogue remains clear and louder than the room sounds, with no public announcements.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "56206a601b73ff6ccb70606a44df3720623077d9b31e505b34847a3bdda9c0a3"
+}
