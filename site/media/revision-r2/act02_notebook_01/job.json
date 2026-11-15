@@ -1,0 +1,48 @@
+{
+  "id": "act02_notebook_01",
+  "act": 2,
+  "title": "願望清單",
+  "seed": 517324,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": "nurse",
+  "dialogue": [
+    "治療走一步，願望也替妳留一步，好嗎？"
+  ],
+  "textCues": [
+    {
+      "start": 0.1,
+      "end": 5.1,
+      "text": "治療走一步，願望也替妳留一步，好嗎？"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act02_notebook_01-r2.png",
+      "sha256": "d1cec9670d217c1bedd07d89d787d7a35ad8283deb0ae0906a7943055908b1ab"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "offscreen": true,
+  "voiceReference": {
+    "file": "inputs/voice-nurse.wav"
+  },
+  "frames": 124,
+  "deliveryFrames": 124,
+  "duration": 5.166666666666667,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Audio 1> is the voice-timbre reference for a natural adult Taiwanese female voice, warm conversational Taiwan Mandarin, gentle sentence endings and unforced articulation (S2). Reference vocal timbre and Taiwan Mandarin delivery only, not its words, music or environmental sound.\n\nsummary:\n[keyframe completion + reference generation + audio reference] A single 5.167-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Audio 1>: reference - use vocal identity and delivery; generate the new dialogue rather than copying source words or its soundtrack.\n\ndetailed_description: [Shot 1] Live-action photographic realism. The completed sentence \"今天，先好好照顧自己。\" is small natural handwritten ink already absorbed into the page. The nurse lifts the pen tip from the final punctuation and withdraws her hand slowly; the patient gently touches the paper edge. The letters remain attached to the curved paper without changing, floating or becoming typeset. The existing nurse voiceover continues off screen. A calm adult Taiwanese voice (S2) says in an off-screen voiceover: <d>[Chinese] 治療走一步，願望也替妳留一步，好嗎？</d> while any visible lips remain completely closed. The shot lasts 5.166666666666667 seconds. No subtitles or watermark.\n\noverall_soundscape:\nLow consultation-room ventilation and subtle sleeve and paper rustle. Spoken dialogue remains clear and louder than the room sounds, with no public announcements.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "7a08cbde1cb2bc2faac0132ea263a774c98e7a91741b9abca614e4fd114126d7",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-493dd599-af98-47eb-8815-8de1145d96e9.png"
+}
