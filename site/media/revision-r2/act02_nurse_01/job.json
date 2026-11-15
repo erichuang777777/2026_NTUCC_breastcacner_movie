@@ -1,0 +1,49 @@
+{
+  "id": "act02_nurse_01",
+  "act": 2,
+  "title": "個管師坐到身邊",
+  "seed": 517011,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致"
+  ],
+  "speaker": "nurse",
+  "dialogue": [
+    "妳現在想把它們劃掉，我可以理解。",
+    "今天不用急著決定，一切都會沒事的。"
+  ],
+  "textCues": [
+    {
+      "start": 0.2,
+      "end": 3.7,
+      "text": "妳現在想把它們劃掉，我可以理解。"
+    },
+    {
+      "start": 3.7,
+      "end": 7.8,
+      "text": "今天不用急著決定，一切都會沒事的。"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act02_nurse_01.png",
+      "sha256": "8b83f9958f7ebbed3a6c5d0fddd425002bfc3c2c45b30ddea631a7724d9ca043"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "offscreen": false,
+  "voiceReference": {
+    "file": "inputs/voice-nurse.wav"
+  },
+  "frames": 209,
+  "deliveryFrames": 209,
+  "duration": 8.708333333333334,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Subject 2> is the nurse in navy scrubs at the left in the scene anchor, the only visible speaker in [Shot 1].\n<Audio 1> is the voice-timbre reference for <Subject 2> (S2), the nurse in navy scrubs at the left, speaking in a natural adult Taiwanese female voice, warm conversational Taiwan Mandarin, gentle sentence endings and unforced articulation. Reference vocal timbre and Taiwan Mandarin delivery only, not its words, music or environmental sound.\n\nsummary:\n[keyframe completion + reference generation + audio reference] A single 8.708-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Subject 2> (appears in [Shot 1]): fully_preserved - retain the same face, age and scene-specific clothing; allow only the described actions and synchronized speech.\n<Audio 1>: reference - use vocal identity and delivery; generate the new dialogue rather than copying source words or its soundtrack.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. Preserve all people and their facial proportions. Live-action continuous photographic motion, restrained emotion. Medium three-person shot: the navy-scrub nurse sits left, the woman in a cream blouse and charcoal cardigan sits center holding her worn brown notebook, her husband in a navy hoodie sits right holding her left hand. Nobody stands or changes seats. At the beginning, the nurse inclines her head gently toward the woman, keeping her hand resting on the woman's upper arm. Next, the woman looks briefly down toward the notebook and releases tension in her shoulders with a slow exhale. Toward the end, her gaze returns toward the nurse. The husband quietly watches her and maintains his supportive hand position. The camera physically moves 20 cm closer and 10 cm right, with subtle parallax between the near table leaves and the distant bookshelf. No generated lettering or added graphics. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. After the opening settles, <Subject 2> (S2), the nurse in navy scrubs at the left, speaking in a natural adult Taiwanese female voice, warm conversational Taiwan Mandarin, gentle sentence endings and unforced articulation says: <d>[Chinese] 妳現在想把它們劃掉，我可以理解。今天不用急著決定，一切都會沒事的。</d> Only this speaker’s lips articulate the line; every other visible character remains a silent listener with lips together. The speaker finishes the line and closes the mouth before the final hold. The voice follows <Audio 1> without copying its words or background sound. The full shot lasts 8.708 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow consultation-room ventilation and subtle sleeve and paper rustle. Spoken dialogue remains clear and louder than the room sounds, with no public announcements.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "7aed00bf062076c9c4a64f19fd1b25735e8dba0e33d9a610a08d49e245c5e62b"
+}
