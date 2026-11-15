@@ -1,0 +1,46 @@
+{
+  "id": "act02_answer_hands_01",
+  "act": 2,
+  "title": "聽見與回應",
+  "seed": 518016,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": "lin",
+  "dialogue": [
+    "我們會一起評估，盡可能替妳保留這個選擇。"
+  ],
+  "textCues": [
+    {
+      "start": 0.2,
+      "end": 4.9,
+      "text": "我們會一起評估，盡可能替妳保留這個選擇。"
+    }
+  ],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act02_answer_hands_01.png",
+      "sha256": "8f16237d5ec2acccd2b43d7d8e70676a716ed0adab088ecf0068dfbfc3edf5f6"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "offscreen": true,
+  "voiceReference": {
+    "file": "inputs/voice-lin.wav"
+  },
+  "frames": 158,
+  "deliveryFrames": 158,
+  "duration": 6.583333333333333,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Audio 1> is the voice-timbre reference for a natural adult Taiwanese male voice, mid-low pitch, clear Taiwan Mandarin and a calm professional pace (S3). Reference vocal timbre and Taiwan Mandarin delivery only, not its words, music or environmental sound.\n\nsummary:\n[keyframe completion + reference generation + audio reference] A single 6.583-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Audio 1>: reference - use vocal identity and delivery; generate the new dialogue rather than copying source words or its soundtrack.\n\ndetailed_description:\nThe target video uses live-action photographic realism and the natural lighting of the scene anchor.\n[Shot 1] The shot begins from <Picture 1>, retaining the exact opening framing, lighting and character arrangement.  Live-action, photographic realism. Preserve all people and their facial proportions. Live-action continuous photographic motion, restrained emotion. Close insert of the husband's navy-sleeved hands gently enclosing the woman's charcoal-sleeved hand on the same wooden table. Keep the exact hand arrangement of the reference. At the beginning, his thumb moves slowly a few millimeters over the back of her hand in one reassuring stroke. Next, their hands settle, her fingers release tension slightly, with tiny breathing-related sleeve movements. The camera slides slowly 8 cm sideways, preserving the contact point in focus, with natural depth change between the hands and the blurred notebook and tablet behind them. No new hands, no interlocking or rearrangement of fingers. No generated lettering or added graphics. Preserve facial identity, age, wardrobe and lighting from the supplied visual sources. Initial object positions match the opening reference; only the explicitly described movements may change them. Keep the movement continuous with no cut or pose reset. Natural breathing and cloth motion continue between the specified actions. No subtitles, added graphics or new lettering are generated. After the opening settles, a natural adult Taiwanese male voice, mid-low pitch, clear Taiwan Mandarin and a calm professional pace (S3) says in an off-screen voiceover: <d>[Chinese] 我們會一起評估，盡可能替妳保留這個選擇。</d> while all visible characters’ lips remain completely closed. The voice follows <Audio 1> without copying its words or background sound. The full shot lasts 6.583 seconds. Keep one continuous shot, no captions or newly invented lettering.\n\noverall_soundscape:\nLow consultation-room ventilation and subtle sleeve and paper rustle. Spoken dialogue remains clear and louder than the room sounds, with no public announcements.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "4c14929103b3eddddc0eb273d450a7addca922cb56e77c424085dc9ac37e44ae",
+  "revision": "r2",
+  "needsVisualReview": true
+}
