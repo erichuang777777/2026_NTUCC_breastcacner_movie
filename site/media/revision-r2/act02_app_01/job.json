@@ -1,0 +1,48 @@
+{
+  "id": "act02_app_01",
+  "act": 2,
+  "title": "帶著照護資訊回家",
+  "seed": 518329,
+  "checks": [
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act02_app_01.png",
+      "sha256": "50688f95f64d24226312621b7c75a9dbd5b83dddc8f1bbd97030950f5a5f7620"
+    },
+    {
+      "label": "<Picture 2>",
+      "kind": "identity",
+      "file": "inputs/ho_front_gpt_v1.png",
+      "identity": "woman",
+      "sha256": "104de13642727df13ec3313bcae43bc1fbe375c957f5be3dd83b30538791bbb5"
+    },
+    {
+      "label": "<Picture 3>",
+      "kind": "identity",
+      "file": "inputs/nurse_chen_front_gpt_v1.png",
+      "identity": "nurse",
+      "sha256": "8ba98746591494f7bfa2091f0e06913e56f0fbbd0512e17b4ac267e4e43e4484"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 124,
+  "deliveryFrames": 124,
+  "duration": 5.166666666666667,
+  "mode": "Ref2VA",
+  "prompt": "subject_definitions:\n<Picture 1> is the exact opening composition of [Shot 1], supplying scene geometry, wardrobe, hair state, pose and lighting.\n<Subject 3> is the woman whose facial identity comes from <Picture 2>; wardrobe, age, hairstyle and pose remain those of the scene anchor.\n<Subject 4> is the nurse whose facial identity comes from <Picture 3>; wardrobe, age, hairstyle and pose remain those of the scene anchor.\n\nsummary:\n[keyframe completion + reference generation] A single 5.167-second live-action shot develops the anchored action while retaining characters, scene and camera continuity.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - retain opening composition, staging, lighting and scene-specific appearance.\n<Subject 3> (appears in [Shot 1]): fully_preserved - retain facial identity without importing portrait clothing, hair or background.\n<Subject 4> (appears in [Shot 1]): fully_preserved - retain facial identity without importing portrait clothing, hair or background.\n\ndetailed_description: [Shot 1] Live-action photographic realism. The same nurse and patient look down at the phone. Only its dark back faces the camera; its screen faces them and is not visible to the viewer. The patient makes one small scrolling motion on the unseen front surface; the nurse points beside the device without touching through it. No lettering or graphic is placed on the phone back or over the frame. This is a reaction shot; the next brief insert uses a separate real-interface recording. No dialogue, singing or narration. Visible people remain silent. The shot lasts 5.166666666666667 seconds. No subtitles or watermark.\n\noverall_soundscape:\nLow consultation-room ventilation and subtle sleeve and paper rustle. Spoken dialogue remains clear and louder than the room sounds, with no public announcements.\n\nnon_diegetic_music:\nA very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "b947ba8c8bdfd3b7881d8e5ca5e7ebdc2e36eb75d4c6f924ced93884e285ff1b",
+  "revision": "r2",
+  "needsVisualReview": true
+}
