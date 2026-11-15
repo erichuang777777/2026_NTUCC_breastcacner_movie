@@ -1,0 +1,24 @@
+name: Sync team feedback to Issues
+on:
+  schedule:
+    - cron: '7,17,27,37,47,57 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: feedback-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-feedback.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REVIEW_SYNC_SECRET: ${{ secrets.REVIEW_SYNC_SECRET }}
+          REVIEW_API: https://ntucc-movie-feedback.netlify.app/api/comments
