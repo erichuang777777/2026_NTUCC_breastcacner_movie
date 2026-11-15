@@ -1,0 +1,39 @@
+{
+  "id": "act01_crossout_01",
+  "act": 1,
+  "title": "劃掉願望",
+  "seed": 517008,
+  "checks": [
+    "只劃婚禮與孩子",
+    "升遷與路跑未劃掉",
+    "不是勾選",
+    "只有指定動作與運鏡發生；沒有隨機切鏡",
+    "臉部清楚，肢體與接觸自然，背景不閃爍",
+    "生成長度、裁切範圍、參考素材標籤與模式一致",
+    "本輪已記錄的畫面與台詞修正必須人工驗收"
+  ],
+  "speaker": null,
+  "dialogue": [],
+  "textCues": [],
+  "dependsOn": null,
+  "references": [
+    {
+      "label": "<Picture 1>",
+      "kind": "scene",
+      "file": "inputs/act01_crossout_01-r2.png",
+      "sha256": "dfad405470b23be87bae9f83a2542fddbd903d1e016f7093b5b4b70935d51fc4"
+    }
+  ],
+  "kind": "h3",
+  "overlapFrames": 0,
+  "frames": 192,
+  "deliveryFrames": 192,
+  "duration": 8.0,
+  "mode": "I2VA",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action photographic realism. The handwritten list and existing thin crossed-out lines stay physically on the paper. Her pen hand hesitates then lowers away from the page; her other hand tightens lightly at the corner. No added text, printed font, floating words or new strike-through. No dialogue, singing or narration. Visible people remain silent. The shot lasts 8.0 seconds. No subtitles or watermark.\n\noverall_soundscape: Quiet indoor room ambience, restrained clothing rustle and physical sounds synchronized to the visible movements; rain and distant traffic are audible only in the office scenes.\n\nnon_diegetic_music: A very quiet slow felt-piano pattern with sustained low cello, no singing or percussion. Keep the score below speech, with no sudden swell; leave a gentle held tone at the end.",
+  "promptSHA256": "81e01f08efa49fbd42dc5328554f9eedecd213205c390351d43eb1264e91b072",
+  "revision": "r2",
+  "needsVisualReview": true,
+  "awaitInput": false,
+  "revisedSource": "/Users/eric777/.codex/generated_images/01a1a1e6-6abb-76f1-bf40-7e503f991b4b/exec-af2f7b2d-3ca1-4263-9841-6f92ca3288c6.png"
+}
